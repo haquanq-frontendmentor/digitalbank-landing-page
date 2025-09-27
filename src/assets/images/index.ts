@@ -1,0 +1,13 @@
+export { default as IntroPatternDesktop } from "./bg-intro-desktop.svg";
+export { default as IntroPatternMobile } from "./bg-intro-mobile.svg";
+export { default as ApiIcon } from "./icon-api.svg";
+export { default as BudgetingIcon } from "./icon-budgeting.svg";
+export { default as OnboardingIcon } from "./icon-onboarding.svg";
+export { default as OnlineIcon } from "./icon-online.svg";
+export { default as ConfettiImage } from "./image-confetti.jpg";
+export { default as CurrencyImage } from "./image-currency.jpg";
+export { default as MockupsImage } from "./image-mockups.png";
+export { default as PlaneImage } from "./image-plane.jpg";
+export { default as RestaurantImage } from "./image-restaurant.jpg";
+export { default as LogoDark } from "./logo-dark.svg";
+export { default as LogoLight } from "./logo-light.svg";
