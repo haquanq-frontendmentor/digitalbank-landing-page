@@ -6,7 +6,7 @@
   import FooterSocials from "./FooterSocials.svelte";
 </script>
 
-<footer class="bg-blue-950">
+<footer class="bg-blue-950 [--focus-outline-color:#fff]">
   <Container>
     <div
       class="grid gap-x-6 gap-y-8 px-[0.1875rem] py-[3.375rem] *:justify-self-center md:grid-cols-3 md:*:justify-self-start lg:grid-cols-4 lg:pt-[2.9375rem] lg:pb-[2.875rem]"
