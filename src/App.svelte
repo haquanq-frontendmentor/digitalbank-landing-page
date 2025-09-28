@@ -1,4 +1,5 @@
 <script>
+  import Articles from "./components/Articles.svelte";
   import Features from "./components/Features.svelte";
   import Footer from "./components/Footer/Footer.svelte";
   import Header from "./components/Header/Header.svelte";
@@ -9,5 +10,6 @@
 <main class="overflow-hidden bg-gray-50">
   <Intro />
   <Features />
+  <Articles />
 </main>
 <Footer />
