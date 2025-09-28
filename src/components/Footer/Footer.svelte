@@ -21,7 +21,7 @@
         <FooterNav />
       </div>
       <div class="flex w-full flex-col items-center gap-6 md:col-start-3 md:items-end lg:col-start-4">
-        <Button>Request Invite</Button>
+        <Button link="">Request Invite</Button>
         <p class="shrink-0 text-sm leading-4">© Digitalbank. All Rights Reserved</p>
       </div>
     </div>
