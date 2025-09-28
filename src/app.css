@@ -33,3 +33,44 @@
         /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
             url("./assets/fonts/public-sans-v21-latin-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
+
+@theme {
+    --color-*: initial;
+
+    --color-blue-950: hsl(233, 26%, 24%);
+
+    --color-green-500: hsl(136, 64%, 51%);
+
+    --color-cyan-400: hsl(192, 69%, 51%);
+
+    --color-gray-600: hsl(233, 8%, 62%);
+    --color-gray-100: hsl(220, 16%, 96%);
+    --color-gray-50: hsl(0, 0%, 98%);
+
+    --color-white: hsl(0, 100%, 100%);
+
+    --font-*: initial;
+    --font-weight-*: initial;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+}
+
+@layer base {
+    :root {
+        --gradient-green: linear-gradient(14deg, rgba(45, 187, 200, 1) 0%, rgba(51, 206, 105, 1) 67%);
+    }
+
+    body {
+        font-family: "Public Sans", system-ui;
+        line-height: 1;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    a {
+        line-height: inherit;
+    }
+}
