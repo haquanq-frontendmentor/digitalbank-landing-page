@@ -13,5 +13,5 @@ export default defineConfig({
             },
         }),
     ],
-    base: "digitalbank-landing-page",
+    base: "/digitalbank-landing-page",
 });
