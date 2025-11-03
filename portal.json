@@ -1,7 +1,7 @@
 {
   "name": "Digitalbank Landing Page",
-  "featured": true,
-  "colors:": {
+  "featured": false,
+  "colors": {
     "brand": "#38C6B0"
   },
   "images": {
